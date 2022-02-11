@@ -1,2 +1,2 @@
 language = "bash"
-run = "./gradlew clean compileJava test run"
+run = "run = "cowsay 'good nix file!'||echo cowsay not installed from nix; java -version 2>&1 | grep 'openjdk version.*16' || { echo LOCAL JAVA VERSION != VERSION IN NIX; exit 1; } ; ./gradlew clean compileJava test run""
